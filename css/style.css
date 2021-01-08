@@ -251,3 +251,208 @@ h1.project-tittle span {
 .social-icon ul li.s-icon img {
     width: 100%
 }
+
+
+
+
+
+
+
+
+/* 320px.
+480px.
+600px.
+768px.
+900px.
+1024px.
+1200px. */
+@media screen and (max-width: 1500px) {
+    .slider-content h1 {
+        font-size: 70px
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .slider-content h1 {
+        font-size: 60px;
+        
+    }
+    .work-inquary-area h2 {
+        font-size: 55px;
+    }
+    .single-project h2,p{
+        padding: 0 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1124px) {
+    .slider-content .color-highlight {
+        margin-top: -15px;
+        margin-bottom: 0
+    }
+    .slider-content h1 {
+        font-size: 48px;
+    }
+    .slider-content {
+        margin-top: 25px;
+    }
+    .header-area {
+        height: 171px;
+    }
+    .work-inquary-area {
+        width: 55%;
+    }
+    .work-inquary-area h2 {
+        font-size: 50px;
+    }
+    .project-area {
+        padding-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-menu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-menu ul {
+        float: none;
+        text-align: center;
+    }
+    .slider-content h1 {
+        font-size: 40px
+    }
+    .single-service {
+        width: 48%;
+    }
+    .header-area {
+        height: 150px;
+    }
+    .about-img.half-width {
+        float: none;
+        margin: auto;
+    }
+    .about-content.half-width {
+        width: 100%;
+        float: none;
+        margin-top: 40px;
+        text-align: justify
+    }
+    .about-content h2 {
+        font-size: 40px;
+        text-align: center
+    }
+    .work-inquary-area h2 {
+        font-size: 45px;
+    }
+    .work-inquary-area {
+        width: 60%;
+    }
+    .work-btn {
+        padding: 10px 20px;
+    }
+    .project-area h1 {
+        font-size: 40px;
+    }
+    .service-area h1 {
+        font-size: 40px;
+    }
+    .project-area {
+        padding-bottom: 140px;
+    }
+    .project-area .container {
+        width: 100%;
+    }
+    .single-project {
+        margin: 0 1.5%;
+    }
+    .cv-button {
+        text-align: center;
+    }
+    .service-area {
+        padding: 40px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider-content h1 {
+        font-size: 32px;
+    }
+    .slider-content .color-highlight {
+        margin-top: -30px;
+        margin-bottom: -10px
+    }
+    .slider-content {
+        margin-top: 10px;
+    }
+    .about-content.half-width {
+        width: 100%;
+        float: none;
+    }
+    .work-btn {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .work-inquary-area h2 {
+        font-size: 38px;
+    }
+    .project-area {
+        padding-bottom: 120px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .header-area {
+        height: 110px;
+    }
+    .header-area .container {
+        width: 100%;
+        margin: none
+    }
+    .slider-content .color-highlight {
+        margin-top: -15px;
+        margin-bottom: 10px;
+        line-height: 54px;
+    }
+    .slider-content h1 {
+        font-size: 35px
+    }
+    a.btn {
+        font-size: 14px;
+        padding: 15px 37px;
+    }
+    .slider-img.half-width {
+        margin-top: 50px;
+    }
+    .work-inquary-area {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .main-menu ul li a {
+        font-size: 18px;
+    }
+    .slider-content {
+        margin-top: 0;
+    }
+    .slider-content h1 {
+        font-size: 35px
+    }
+    .slider-content .color-highlight {
+        line-height: 54px;
+    }
+    .work-inquary-area {
+        width: 85%
+    }
+    .work-btn {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+    .work-inquary-area h2 {
+        font-size: 35px;
+    }
+}
